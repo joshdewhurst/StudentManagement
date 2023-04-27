@@ -27,3 +27,7 @@ class Student {
         this.marks = marks;
     }
 }
+
+class StudentDatabase {
+   
+}
