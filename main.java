@@ -29,5 +29,10 @@ class Student {
 }
 
 class StudentDatabase {
-   
+    private List<Student> students;
+
+    public StudentDatabase() {
+        students = new ArrayList<Student>();
+    }
+    
 }
