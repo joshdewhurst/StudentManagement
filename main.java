@@ -77,5 +77,10 @@ class StudentDatabase {
 }
 
 public class StudentManagementSystem {
-    
+    public static void main(String[] args) {
+        StudentDatabase database = new StudentDatabase();
+        database.addStudent(new Student("John", 101, 85.0f));
+        database.addStudent(new Student("Jane", 102, 90.0f));
+        database.addStudent(new Student("Mike", 103, 80.0f));
+      
 }
