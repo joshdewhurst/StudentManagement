@@ -49,4 +49,20 @@ class StudentDatabase {
         System.out.println("Student with roll number " + rollNumber + " not found");
     }
     
+    public void updateStudentMarks(int rollNumber, float marks) {
+        for (Student student : students) {
+            if (student.getRollNumber() == rollNumber) {
+                student.setMarks(marks);
+                return;
+            }
+        }
+        System.out.println("Student with roll number " + rollNumber + " not found");
+    }
+    
+    public void printStudentData() {
+        for (Student student : students) {
+            System.out.println("Name: " + student.getName() + ", Roll Number: " + student.getRollNumber() + ", Marks: " + student.getMarks());
+        }
+    }
+    
 }
