@@ -35,4 +35,18 @@ class StudentDatabase {
         students = new ArrayList<Student>();
     }
     
+    public void addStudent(Student student) {
+        students.add(student);
+    }
+    
+    public void deleteStudent(int rollNumber) {
+        for (Student student : students) {
+            if (student.getRollNumber() == rollNumber) {
+                students.remove(student);
+                return;
+            }
+        }
+        System.out.println("Student with roll number " + rollNumber + " not found");
+    }
+    
 }
