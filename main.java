@@ -10,3 +10,7 @@ class Student {
         this.rollNumber = rollNumber;
         this.marks = marks;
     }
+
+    public String getName() {
+        return name;
+    }
