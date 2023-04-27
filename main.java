@@ -65,4 +65,13 @@ class StudentDatabase {
         }
     }
     
+    public float calculateAverageMarks() {
+        float totalMarks = 0;
+        int numStudents = students.size();
+        for (Student student : students) {
+            totalMarks += student.getMarks();
+        }
+        return totalMarks/numStudents;
+    }
+    
 }
