@@ -82,7 +82,7 @@ public class StudentManagementSystem {
         database.addStudent(new Student("John", 101, 85.0f));
         database.addStudent(new Student("Jane", 102, 90.0f));
         database.addStudent(new Student("Mike", 103, 80.0f));
-        
+
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
@@ -115,10 +115,14 @@ public class StudentManagementSystem {
                     database.printStudentData();
                     break;
                 case 5:
-                    float avgMarks = database.calculateAverageMarks();
-                    System.out.println("Average marks: " + avgMarks);
+                    System.out.println("Average marks: " + database.calculateAverageMarks());
                     break;
-            } }
-
+                case 6:
+                    System.out.println("Exiting...");
+                    break;
+                default:
+                    System.out.println("Invalid choice");
+            }
+        } while (choice != 6);
     }
 }
