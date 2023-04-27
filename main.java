@@ -75,3 +75,7 @@ class StudentDatabase {
     }
     
 }
+
+public class StudentManagementSystem {
+    
+}
