@@ -19,6 +19,7 @@ Once you have cloned the repository, navigate to the directory containing the co
 `javac StudentManagementSystem.java`
 
 After successfully compiling the code, you can run the program by using the following command:
+
 `java StudentManagementSystem`
 
 This will start the program and display the menu. From there, you can follow the prompts to manage the student data.
