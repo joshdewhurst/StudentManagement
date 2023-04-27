@@ -104,6 +104,15 @@ public class StudentManagementSystem {
                     rollNumber = scanner.nextInt();
                     database.deleteStudent(rollNumber);
                     break;
+                case 3:
+                    System.out.print("Enter roll number of student to update marks: ");
+                    rollNumber = scanner.nextInt();
+                    System.out.print("Enter new marks: ");
+                    marks = scanner.nextFloat();
+                    database.updateStudentMarks(rollNumber, marks);
+                    break;
+                case 4:
+                    database.printStudentData();
             } }
 
     }
