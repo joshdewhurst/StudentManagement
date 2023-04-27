@@ -13,6 +13,7 @@ The **StudentManagementSystem** class is the main class of the program. It insta
 
 ## How to Use
 To run this program, you will need to have Java installed on your computer. You can clone this repository by using the following command:
+
 `git clone https://github.com/joshdewhurst/StudentManagement.git`
 
 Once you have cloned the repository, navigate to the directory containing the code and compile the code using the following commands:
