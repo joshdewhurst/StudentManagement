@@ -14,3 +14,16 @@ class Student {
     public String getName() {
         return name;
     }
+    
+    public int getRollNumber() {
+        return rollNumber;
+    }
+    
+    public float getMarks() {
+        return marks;
+    }
+    
+    public void setMarks(float marks) {
+        this.marks = marks;
+    }
+}
