@@ -1,7 +1,7 @@
 # Student Management System
 This is a simple student management system written in Java. It allows users to add, delete, and update student information, as well as view student data and calculate average marks.
 
-![Code Demo](./Java Student Management System (online-video-cutter.com).mp4)
+![Code Demo](./Demo.mp4)
 
 
 ## Technical Elements
