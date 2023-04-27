@@ -82,5 +82,8 @@ public class StudentManagementSystem {
         database.addStudent(new Student("John", 101, 85.0f));
         database.addStudent(new Student("Jane", 102, 90.0f));
         database.addStudent(new Student("Mike", 103, 80.0f));
-      
+        
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+    }
 }
