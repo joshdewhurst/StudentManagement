@@ -113,6 +113,11 @@ public class StudentManagementSystem {
                     break;
                 case 4:
                     database.printStudentData();
+                    break;
+                case 5:
+                    float avgMarks = database.calculateAverageMarks();
+                    System.out.println("Average marks: " + avgMarks);
+                    break;
             } }
 
     }
