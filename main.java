@@ -99,6 +99,11 @@ public class StudentManagementSystem {
                     float marks = scanner.nextFloat();
                     database.addStudent(new Student(name, rollNumber, marks));
                     break;
+                case 2:
+                    System.out.print("Enter roll number of student to be deleted: ");
+                    rollNumber = scanner.nextInt();
+                    database.deleteStudent(rollNumber);
+                    break;
             } }
 
     }
